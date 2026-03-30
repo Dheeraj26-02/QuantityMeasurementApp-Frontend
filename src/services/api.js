@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE = process.env.REACT_APP_API_BASE_URL;
+const BASE = process.env.REACT_APP_API;
 
 // Create axios instance — auto-attach JWT to every request
 const http = axios.create({ baseURL: BASE });
